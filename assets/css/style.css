@@ -1,0 +1,213 @@
+/* Navbar */
+
+.navbar {
+    background-color: #0a192f;
+}
+
+.navbar-brand {
+    color: #2EE59D;
+    text-shadow: 2px 2px 5px #2EE59D;
+}
+
+.navbar-brand:hover {
+    color: #2EE59D;
+}
+
+.nav-link {
+    color: rgb(170, 170, 170);
+}
+
+.nav-link-num {
+    color: #2EE59D;
+}
+
+.nav-link:hover {
+    color: #2EE59D;
+}
+
+.active a {
+    color: #2EE59D;
+}
+
+
+/* btn class used for all buttons */
+
+.btn {
+    border: 2px solid #2EE59D;
+    background-color: transparent;
+    color: #2EE59D;
+    min-width: 100px;
+}
+
+.btn:hover {
+    background: rgb(46, 229, 157, 0.2);
+}
+
+a:hover {
+    color: #2EE59D;
+}
+
+.fa {
+    color: rgb(170, 170, 170);
+    font-size: 2.5rem;
+    margin-left: 1.5rem;
+}
+
+.fa:hover {
+    color: #2EE59D;
+}
+
+
+/* Body */
+
+body {
+    background-color: #0a192f;
+    font-family: "Courier New";
+}
+
+.body-margin {
+    margin-top: 6rem;
+}
+
+h1 {
+    /* color: rgb(170, 170, 170); */
+    color: white;
+}
+
+p {
+    color: rgb(170, 170, 170);
+}
+
+.sections {
+    margin-top: 3.5rem;
+}
+
+
+/* Members Page */
+
+table {
+    color: rgb(170, 170, 170);
+}
+
+th {
+    color: #2EE59D;
+}
+
+
+/* Resources Page */
+
+.card-deck {
+    margin-top: 1.35rem;
+}
+
+.card {
+    background: #12233e;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-title {
+    color: #2EE59D;
+}
+
+.event-container {
+    font-family: "Courier New";
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.event-container h3.year {
+    font-size: 40px;
+    text-align: center;
+    border-bottom: 1px solid #b1b1b1;
+}
+
+.event-container .event {
+    box-shadow: 0 4px 16px -8px rgb(4, 247, 36);
+    display: felx;
+    border-radius: 8px;
+    margin: 32px 0;
+}
+
+.event .event-left {
+    background: rgba(4, 247, 36, 0.281);
+    min-width: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    padding: 8px 48px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px 0 0 8px;
+}
+
+.event .event-left .date {
+    font-size: 56px;
+}
+
+.event .event-left .month {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.event .event-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 24px;
+}
+
+.event .event-right h3.event-title {
+    font: 24px;
+    margin: 24px 0 10px 0;
+    color: #2EE59D;
+    text-transform: uppercase;
+}
+
+.event .event-right .event-timing {
+    background: #fff8ba;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    padding: 8px;
+    border-radius: 16px;
+    margin: 24px 0;
+    font-size: 14px;
+}
+
+.event-description {
+    color: #cccccc
+}
+
+.events-hyperlink {
+    color:white; 
+    text-decoration: none;
+}
+
+.events-hyperlink:hover {
+    color: white;
+    text-decoration: none;
+}
+
+@media(max-width: 550px) {
+    .event {
+        flex-direction: column;
+    }
+    .event .event-left {
+        padding: 0;
+        border-radius: 8px 8px 0 0;
+    }
+    .event .event-left .event-date .date,
+    .event .event-left .event-date .month {
+        display: inline-block;
+        font-size: 24px;
+    }
+    .event .event-left .event-date {
+        padding: 10px 0;
+    }
+}
