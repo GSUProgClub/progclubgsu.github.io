@@ -1,2 +1,2 @@
-# gsuprogclub.github.io
-GSU Programming Club website
+# progclubgsu.github.io
+Programming Club GSU website
